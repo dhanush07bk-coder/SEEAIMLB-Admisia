@@ -1,16 +1,47 @@
-# React + Vite
+# 🎓 Admisia
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Your Path to Higher Education
 
-Currently, two official plugins are available:
+Admisia is a web-based Online Admission Management System that simplifies the college admission process. Students can create an account, explore colleges, submit applications, manage their profiles, and track their application status through a single platform.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- Student Signup and Login
+- Explore available colleges
+- Online college application
+- Apply to multiple colleges
+- Personal profile management
+- Document validation
+- Application ID generation
+- Application status tracking
+- Responsive and modern UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+- Supabase
+- React Router
+- Git & GitHub
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+```text
+src/
+├── components/
+│   └── Navbar.jsx
+├── pages/
+│   ├── Home.jsx
+│   ├── Login.jsx
+│   ├── Signup.jsx
+│   ├── Application.jsx
+│   ├── Status.jsx
+│   └── Profile.jsx
+├── supabaseClient.js
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
